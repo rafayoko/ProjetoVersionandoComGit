@@ -7,6 +7,7 @@ namespace ProjetoVersionandoComGit
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.WriteLine(DataTime.Now.ToLongDateString());
         }
     }
 }
